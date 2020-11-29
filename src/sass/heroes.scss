@@ -1,0 +1,49 @@
+.heroes {
+    &__video {
+        margin-top: 60px;
+    }
+
+    text-align: center;
+
+    &__wrapp {
+        margin-top: 90px;
+        img {
+            width: 80%;
+        }
+    }
+    &__title {
+        font-size: 36px;
+        margin-top: 123px;
+        font-family: 'EB Garamond', serif;
+        font-weight: 100;
+
+        @media screen and (max-width: 600px) {
+            margin-bottom: 20px;
+        }
+
+        &::after {
+            content: "";
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 12px auto;
+            width: 80px;
+        }
+    }
+
+    &__subtitle {
+        font-size: 36px;
+        font-family: 'EB Garamond', serif;
+        font-weight: 100;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: left;
+        margin: 60px 60px;
+        @media screen and (max-width: 600px) {
+            margin: 16px 16px;
+        }
+    }
+}

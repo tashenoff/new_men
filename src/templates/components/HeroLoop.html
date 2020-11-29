@@ -1,0 +1,5 @@
+<each loop='item in {{ items }}'>
+    <div>
+        <include locals='{"productData": {{ item }}}' src="src/templates/components/HeroSingle.html"></include>
+    </div>
+</each>

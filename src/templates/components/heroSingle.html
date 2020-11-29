@@ -1,0 +1,35 @@
+<section class="heroes">
+   <div class="container">
+
+      <div class="heroes__wrapp">
+
+      
+            <h1 class="heroes__title"> {{ productData.itemName }}</h1>
+            <h2 class="heroes__subtitle">
+               {{ productData.itemProf }}  
+            </h2>
+            <img src="{{ productData.itemImg }}" alt="{{ productData.itemName }}">
+
+     
+
+       
+            <p>  {{ productData.itemBio }}</p>
+       
+
+       
+            <img src="{{ productData.itemImgtwo }}" alt="{{ productData.itemName }}">
+            
+            <p>  {{ productData.itemBiotwo }}</p>
+            <p>  {{ productData.itemBiothree }}</p>
+        
+        
+               <div class="heroes__video">
+                   <iframe class="video" width="100%" height="700px" src="{{ productData.itemVideo }}" frameborder="0"
+                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                       allowfullscreen></iframe>
+               </div>
+         
+
+      </div>
+   </div>
+</section>
