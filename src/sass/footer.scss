@@ -1,8 +1,11 @@
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: #fff;
-    padding: 20px;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  margin-top: 83px;
+  padding: 20px;
+  /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 0 0 auto;
 }
